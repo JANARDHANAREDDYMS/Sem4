@@ -49,12 +49,12 @@ public class Mergesort {
 		}
 		if(h>mid)
 		{
-			for(k=j;k<high;k++)
+			for(k=j;k<=high;k++)
 				b[i++]=a[k];
 		}
 		else
 		{
-			for(k=i;k<mid;k++)
+			for(k=i;k<=mid;k++)
 				b[i++]=a[k];
 		}
 		for(k=low;k<high;k++)
