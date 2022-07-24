@@ -57,7 +57,7 @@ public class Mergesort {
 			for(k=i;k<=mid;k++)
 				b[i++]=a[k];
 		}
-		for(k=low;k<high;k++)
+		for(k=low;k<=high;k++)
 		{
 			a[k]=b[k];
 		}
